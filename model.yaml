@@ -1,0 +1,15 @@
+Model:
+  name: "算法扩展信息，如模型信息等"
+  desc: "扩展描述"
+  isGpu: false # 支持GPU
+  isDistributed: false #支持分布式
+  requestMem: "256M"
+  location: "./gbm.model" #  保存的模型文件路径
+  algorithm:
+    name: "test"
+    desc: "可用于销量预测等方向的算法信息"
+  transforms:
+  - type: "pre-train"
+    functions: 
+  parameters:
+    example: "example"

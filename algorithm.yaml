@@ -1,0 +1,18 @@
+AlgorithmInformation:
+  name: "算法名称"
+  desc: "算法的描述"
+  instance: ""
+  example: "算法使用示例"
+  ref: ""
+  isGpu: false
+  isDistributed: false
+  requestMem: "256M"
+  algorithm:
+    desc: "可用于销量预测等方向的算法"
+    transforms:
+    parameters:
+    - key: "参数名"
+      desc: "参数描述"
+      name: "参数名"
+      val: "参数值"
+      option: ""
